@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        header {
+            height: 70px;
+            background-color: purple;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding-top: 15px;
+        }
+        
+        ul li a {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 0px 10px;
+        }
+        
+        .logo {
+            font-size: 40px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        header button {
+            font-size: 18px;
+            padding: 5px 20px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            cursor: pointer;
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">PHP Site</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="User">
+            <button>Registor</button>
+            <button>Login</button>
+        </div>
+    </header>
+</body>
+
+</html>
